@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="card">
+      <div class="card-1">
+        <h1>Budget</h1>
+        <input type="number" placeholder="Enter Total Amount"  id="budget"/>
+        <button id="set-budget">Set Budget</button>
+      </div>
+      <div class="card-2">
+        <h1>Expenses</h1>
+        <input type="text" placeholder="Enter title of product"  id="name"/>
+        <input type="number" placeholder="Enter Cost of product" id="Cost" />
+        <button id="check">Check Amount</button>
+      </div>
+    </div>
+
+    <div class="summary">
+      <div>
+        <h3>Total Budget</h3>
+        <p id="total">0</p>
+      </div>
+      <div>
+        <h3>Expenses</h3>
+        <p id="Expenses">0</p>
+      </div>
+      <div>
+        <h3>Balance</h3>
+        <p id="Balance">0</p>
+      </div>
+    </div>
+
+    <div class="expensive-list" id="expensive">
+      <h2>Expense List</h2>
+      <div id="expense-items"></div>
+    </div>
+
+    <script defer src="./app.js"></script>
+  </body>
+</html>
+<!-- ! Important: Mobile responsive banana hai -->
+ <!-- ? Yahan ye section kyun use kiya hai? -->
+ <!-- * Yahan ye section kyun use kiya hai? -->
+ <!-- // Yahan ye section kyun use kiya hai? -->
